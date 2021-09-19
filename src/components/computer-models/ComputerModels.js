@@ -15,10 +15,10 @@ const ComputerModels = () => {
       <h1>Computer Models page</h1>
         <div className="navbar">
         {comp.map((comp) => (
-            <NavLink to={'/category/computer-models/' + comp.id + '/' + comp.compBrand}>{comp.compBrand}</NavLink>
+            <NavLink to={'/react-router/category/computer-models/' + comp.id + '/' + comp.compBrand}>{comp.compBrand}</NavLink>
       ))}
       </div>
-      <Route path='/category/computer-models/:id/:name' component={ModelPage} />
+      <Route path='/react-router/category/computer-models/:id/:name' component={ModelPage} />
 
     </div>
   )
