@@ -9,13 +9,13 @@ const Category = () => {
     <div className="category">
       <h1>Category page</h1>
       <div className="navbar">
-      <NavLink to='/category/computer-models' >Computer Models</NavLink>
-      <NavLink to='/category/car-models' >Car Models</NavLink>
+      <NavLink to='/react-router/category/computer-models' >Computer Models</NavLink>
+      <NavLink to='/react-router/category/car-models' >Car Models</NavLink>
       </div>
 
       <Switch>
-      <Route path='/category/computer-models'  component={ComputerModels} />
-      <Route path='/category/car-models' component={CarModels} />
+      <Route path='/react-router/category/computer-models'  component={ComputerModels} />
+      <Route path='/react-router/category/car-models' component={CarModels} />
       </Switch>
 
     </div>
