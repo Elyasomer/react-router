@@ -14,11 +14,11 @@ const CarModels = () => {
 
       <div className="navbar">
       {cars.map((car) => (
-          <NavLink to={'/category/car-models/' + car.id + '/' + car.carname}>{car.carname}</NavLink>
+          <NavLink to={'/react-router/category/car-models/' + car.id + '/' + car.carname}>{car.carname}</NavLink>
     ))}
   </div>
 
-    <Route path='/category/car-models/:id/:name' component={ModelPage} />
+    <Route path='/react-router/category/car-models/:id/:name' component={ModelPage} />
     </div>
   )
 }
