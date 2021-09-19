@@ -7,13 +7,13 @@ function App() {
   return (
     <div className="App">
     <div className="navbar">
-      <NavLink to='/category' >Category</NavLink>
-      <NavLink to='/about' >About</NavLink>
+      <NavLink to='/react-router/category' >Category</NavLink>
+      <NavLink to='/react-router/about' >About</NavLink>
     </div>
 
     <Switch>
-    <Route path='/category' component={Category} />
-    <Route path='/about' component={About} />
+    <Route path='/react-router/category' component={Category} />
+    <Route path='/react-router/about' component={About} />
     </Switch>
     </div>
   );
